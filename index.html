@@ -13,20 +13,37 @@
             right: 0;
             overflow: auto;
         }
-        .bottom{
+        .top{
             width: 100%;
-            height: 60%;
+            height: 80%;
             background-color: #001c55;
             border-width: 0px 0px 5px 0px;
             border-color: black;
             border-style: solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes in{
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .center-top
+        {
+            background-color: #0E6BA8;
+            width: 100%;
+            height: 40%;
+            animation-name: in;
+            animation-duration: 5s;
         }
     </style>
 </head>
 <body>
     <div class = "page">
-    <div class = "bottom">
-        
+    <div class = "top">
+        <div class = "center-top">
+            <img width = "500" height="500" src = "test.png" alt = "no image"> </div>
+            </div>
     </div>
-</div>
+</div> 
 </body>
